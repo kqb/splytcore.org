@@ -1,0 +1,214 @@
+.concept-box {
+    padding: 0.8rem;
+
+    h5 {
+        font-size: 2vmin;
+        margin: 0.5rem 0;
+        color: var(--color-gray-6) !important;
+    }
+
+    p {
+        font-size: 1.6vmin;
+    }
+
+    img {
+        height: 7vmin;
+        margin: auto;
+    }
+
+    text-align: center;
+    margin: 0 auto;
+
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    max-width: 340px;
+    width: 94%;
+    border-radius: 15px;
+    height: 100%;
+    position: relative;
+    background: linear-gradient(180deg, rgba(36, 105, 244, .180392), rgba(19, 61, 194, .29));
+    box-shadow: 0 16px 40px #0f2da0c2;
+    padding: 1.5rem;
+
+    &:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 0 7px 8px #0f2da08a, inset 0 0 6px 6px #0f2da0;
+    }
+
+    &.cb-dark {
+        background: linear-gradient(to bottom, #2469f42e, #113bbfe0);
+        box-shadow: 0px 16px 40px #0f2da0;
+
+        &:hover {
+            box-shadow: 0px 0px 7px 8px #0f2da0, inset 0px 0px 6px 6px #0f2da0;
+            background: linear-gradient(to bottom, #2469F4, #113BBF);
+
+        }
+    }
+
+}
+
+.concept-boxes {
+    .container {
+        max-width: unset !important;
+        margin: 0 !important;
+        padding: 0 !important;
+
+    }
+
+    svg {
+        overflow: visible !important;
+    }
+
+    >div:not(.title) {
+        margin-block-end: 3rem;
+    }
+
+    &>.container {
+        &>.row.justify-content-center {
+            justify-content: space-between !important;
+        }
+    }
+}
+
+.concept-boxes__mobile {
+    .owl-carousel {
+        .owl-item {
+            padding: 3rem;
+        }
+
+        //     .item {
+        //         opacity: 0.4;
+        //         transition: .4s ease all;
+        //         margin: 0 20px;
+        //         transform: scale(.8);
+        //     }
+
+        //     @media(max-width:1000px) {
+        //         .item {
+        //             margin: 0;
+        //             transform: scale(.9)
+        //         }
+        //     }
+
+        //     .active .item {
+        //         opacity: 1;
+        //         transform: scale(1);
+        //     }
+
+
+        //     .owl-item {
+        //         -webkit-backface-visibility: hidden;
+        //         -webkit-transform: translateZ(0) scale(1.0, 1.0);
+        //     }
+
+        //     .inner {
+        //         position: absolute;
+        //         bottom: 30px;
+        //         left: 0;
+        //         right: 0;
+        //         text-align: center;
+        //     }
+
+        //     .inner a {
+        //         color: #fff;
+        //         text-decoration: none;
+        //         border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        //         transition: .3s ease border-color
+        //     }
+
+        //     .inner a:hover {
+        //         border-color: #fff;
+        //     }
+
+        //     .black .inner a {
+        //         color: #000;
+        //         border-color: rgba(0, 0, 0, 0.4)
+        //     }
+
+        //     .black .inner a:hover {
+        //         border-color: #000;
+        //     }
+
+        //     .owl-carousel:after {
+        //         content: "";
+        //         display: block;
+        //         position: absolute;
+        //         width: 8%;
+        //         top: 0;
+        //         bottom: 0;
+        //         left: 50%;
+        //         margin-left: -4%;
+        //         pointer-events: none;
+        //         background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/aett_logo_slider.png) no-repeat center 50%;
+        //         background-size: 100% auto;
+        //     }
+
+        //     .owl-controls {
+        //         position: absolute;
+        //         margin-top: 300px;
+        //     }
+    }
+
+
+}
+
+#concept {
+
+    svg {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.concept-boxes {
+    .concept-boxes__desktop {
+        display: block;
+    }
+
+    .concept-boxes__mobile {
+        display: none;
+        order: 2;
+
+        .concept-box {
+            p {
+                font-size: unset !important;
+            }
+
+            h5 {
+                font-size: unset !important;
+            }
+
+        }
+    }
+}
+@media (max-width:600px) {
+    .concept-boxes {
+        svg{
+            width:80%!important;
+        }
+    }
+}
+
+@media (max-width:990px) {
+    .concept-boxes {
+        div.col-md-6 {
+            order: -1;
+        }
+    }
+}
+
+@media (max-width:900px) {
+    .concept-boxes {
+        .concept-boxes__desktop {
+            display: none;
+        }
+
+        .col-md-12.padding-top-bottom {
+            order: 3;
+        }
+
+        .concept-boxes__mobile {
+            display: block;
+        }
+    }
+}

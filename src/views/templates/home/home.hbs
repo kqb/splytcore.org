@@ -1,0 +1,1619 @@
+{{#> main }}
+{{> header pageTitle="HomePage"}}
+
+<!-- Primary Page Layout
+	================================================== -->
+<div class="body-wrapper">
+	<div class="section full-height height-auto-lg hide-over background-dark-blue-3">
+		<div class="hero-center-wrap relative-on-lg">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center align-self-center z-bigger">
+						{{!-- <div class="col-lg-6 text-center text-lg-left parallax-fade-top align-self-center z-bigger"> --}}
+						{{!-- <img class="intro__logo" src="img/logo.webp" alt="Splyt Logo"> --}}
+						<h1 class="intro__title text-white">
+							THE LAYER-2 NFT INFRASTRUCTURE TO &nbsp;
+							<br>
+							DECENTRALIZE TO E-COMMERCE SUPPLY CHAIN
+						</h1>
+						<div class="intro__txt">
+							<a class="btn btn-primary ml-lg-0 js-tilt" href="https://docsend.com/view/59tpae79tynb2ut9"
+								target="_blank" role="button" data-tilt-perspective="300" data-tilt-speed="700"
+								data-tilt-max="24"><span>Whitepaper</span></a>
+							{{!-- <a class="btn btn-primary js-tilt" href="https://docsend.com/view/eap4yhisax2mitdn"
+								target="_blank" data-gal="m_PageScroll2id" data-ps2id-offset="68" role="button"
+								data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>One
+									Pager</span></a> --}}
+							<a class="btn btn-primary js-tilt" href="https://docsend.com/view/93asm2v5fukzyi4v/"
+								target="_blank" data-gal="m_PageScroll2id" data-ps2id-offset="68" role="button"
+								data-tilt-perspective="300" data-tilt-speed="700" data-tilt-max="24"><span>Tech
+									Paper</span></a>
+						</div>
+						<h4 style="margin-top: 2rem; color: white;">Powered by&nbsp;
+
+							<img style="max-width:122px; width: 20%; margin-bottom: 0.8%;" src="img/logo-polkadot.png"
+								alt="Polkadot Logo">
+						</h4>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ocean dark">
+			<div class="wave"></div>
+			<div class="wave"></div>
+		</div>
+		<canvas id="canvas-x-o"></canvas>
+		<div id="wired3d"></div>
+
+	</div>
+
+	<div class="section z-bigger background-gradient-dark">
+		<div class="section padding-top-big background-gradient-dark-re" id="concept">
+			<div class="container" style="--bkg-src:url('img/background-hex-2.png');--bkg-opacity:0.2">
+				<div class="row justify-content-center">
+					<div class="col-md-12 title">
+						<div class="title-wrap text-center">
+							{{!-- <div class="back-title">concept</div> --}}
+							<h3 class="text-white">WHAT IS SPLYT’s eNFT?</h3>
+							<p class="color-gr">
+								Splyt’s eNFT (E-commerce-Non-Fungible-Token) tokenizes off-chain products on the
+								blockchain. This streamlines digital sales and enables lifetime product data tracking
+								not
+								previously possible. The eNFT empowers a transparent e-commerce ecosystem.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center concept-boxes enft" style="align-items: center;">
+					<div class="col-lg-6 concept-boxes__desktop" style="z-index: 1;">
+						<div class="container" style="">
+							<div class="row justify-content-center" style="justify-content: space-around!important;">
+								<div class="col-md-6  mb-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+									<div class="concept-box" data-toanim='["#house"]'>
+										{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/inventory-management.svg" alt="eNFT INVENTORY CATALOG"> --}}
+
+										<h5 class="text-white vmin_fs1.7">eNFT INVENTORY CATALOG</h5>
+										<p class="text-grey vmin_fs1.4">Every product is assigned a unique eNFT which
+											eliminates the double-sell problem with live-updating inventory tracking
+											across all online stores.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6 mb-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
+									<div class="concept-box" data-toanim='["#towers", "#coins"]'>
+										{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/proof-authenticity.svg" alt="eNFT PROOF OF AUTHENTICITY"> --}}
+										<h5 class="text-white vmin_fs1.7">eNFT Data Traceability </h5>
+										<p class="text-grey vmin_fs1.4">The eNFT acts as a digital proof of
+											authenticity, carries sales metadata and history, and delivers data points
+											across the lifetime of a product in the resale market.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6  mt-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
+									<div class="concept-box" data-toanim='["#nft-boxes", "#box-stack-2", "#platform"]'>
+										{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/shopping-catalog.svg"
+									alt="eNFT BOUNTY MARKETPLACE"> --}}
+										<h5 class="text-white vmin_fs1.7">eNFT BOUNTY MARKETPLACE</h5>
+										<p class="text-grey vmin_fs1.4">Brands set a bounty for each eNFT that is traced
+											and paid on the blockchain for perfect attributions and eliminates
+											counter-party risk.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6  mt-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.9s">
+									<div class="concept-box" data-toanim='["#laptop", "#lock"]'>
+										{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/offchain-defi.svg" alt="eNFT OFF-CHAIN DEFI"> --}}
+										<h5 class="text-white vmin_fs1.7">eNFT OFF-CHAIN DEFI</h5>
+										<p class="text-grey vmin_fs1.4">DeFi pools for collateralized inventory
+											represented
+											on
+											the
+											blockchain as eNFTs and verified via decentralized warehouses.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 concept-boxes__mobile" style="z-index: 1;">
+						<div class="container" style="">
+							<div class="row">
+								<div class="col">
+
+									<div class="owl-carousel owl-theme">
+										<div class="concept-box" data-toanim='["#house"]'>
+											{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/inventory-management.svg" alt="eNFT INVENTORY CATALOG"> --}}
+
+											<h5 class="text-white vmin_fs1.7">eNFT INVENTORY CATALOG</h5>
+											<p class="text-grey vmin_fs1.4">Every item is assigned a unique eNFT which
+												cannot be
+												duplicated.
+												The eNFT in the blockchain database eliminates the double-sell problem
+												with
+												live-updating inventory tracking across all online marketplaces and
+												affiliates.
+											</p>
+										</div>
+
+										<div class="concept-box" data-toanim='["#towers", "#coins"]'>
+											{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/proof-authenticity.svg" alt="eNFT PROOF OF AUTHENTICITY"> --}}
+											<h5 class="text-white vmin_fs1.7">eNFT PROOF OF AUTHENTICITY</h5>
+											<p class="text-grey vmin_fs1.4">The eNFT acts as a digital proof of
+												authenticity,
+												which
+												carries a
+												brands own SKU and metadata. The eNFT delivers data points across the
+												lifetime
+												of a
+												product such as resale value and the length of time a product retains
+												value.
+											</p>
+										</div>
+
+										<div class="concept-box"
+											data-toanim='["#nft-boxes", "#box-stack-2", "#platform"]'>
+											{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/shopping-catalog.svg"
+									alt="eNFT BOUNTY MARKETPLACE"> --}}
+											<h5 class="text-white vmin_fs1.7">eNFT BOUNTY MARKETPLACE</h5>
+											<p class="text-grey vmin_fs1.4">Brands set a bounty, or commission, for each
+												eNFT,
+												creating
+												transparent and seamless affiliate or enterprise sales agreements,
+												executed
+												by
+												smart
+												contracts that are baked into every eNFT's.</p>
+										</div>
+
+										<div class="concept-box" data-toanim='["#laptop", "#lock"]'>
+											{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/offchain-defi.svg" alt="eNFT OFF-CHAIN DEFI"> --}}
+											<h5 class="text-white vmin_fs1.7">eNFT OFF-CHAIN DEFI</h5>
+											<p class="text-grey vmin_fs1.4">DeFi pools for collateralized inventory
+												represented
+												on
+												the
+												blockchain as eNFTs and verified via decentralized warehouses.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="opacity: 0.8;" class="col-md-6">
+						<div data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s"
+							class="row justify-content-center">
+							<svg data-url="img/interactive/SVG/enft.svg">
+							</svg>
+						</div>
+					</div>
+					<div class="col-md-12 padding-top-bottom"
+						data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="line-sep"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container" style="--bkg-src:url('img/background-hex-2.png');--bkg-opacity:0.2">
+				<div class="row justify-content-center">
+					<div class="col-md-12 title">
+						<div class="title-wrap text-center">
+							<h3 class="text-white">HOW DOES THE SPLYT PROTOCOL WORK?</h3>
+							<p class="color-gr">
+								Splyt's TCP/eNFT (Transmission Control Protocol for E-commerce Non-Fungible Tokens)
+								creates a universal, standardized protocol for how data and funds are shared securely
+								between all parties in e-commerce transactions.
+
+							</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="row justify-content-center concept-boxes enft" style="
+    align-items: center;
+">
+					<div class="col-lg-6 concept-boxes__desktop" style="z-index: 1;">
+
+						<div class="container" style="
+">
+							<div class="row justify-content-center" style="
+    justify-content: space-around!important;
+">
+								<div class="col-md-6 mb-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+									<div class="concept-box" data-toanim='["#one"]'>
+										{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/mint-enft.svg" alt="Mint eNFT"> --}}
+										<h5 class="text-white vmin_fs1.7">eNFT Minting</h5>
+										<p class="text-grey vmin_fs1.4">
+											Inventory is tokenized on the blockchain as eNFTs and contains metadata
+											describing the item's properties, profit share terms, affiliate
+											requirements, and internal SKU or tracking data.
+										</p>
+									</div>
+								</div>
+								<div class="col-md-6 mb-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
+									<div class="concept-box" data-toanim='["#two"]'>
+										{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/broadcast-enft.svg" alt="eNFT Broadcast"> --}}
+										<h5 class="text-white vmin_fs1.7">eNFT Broadcast</h5>
+										<p class="text-grey vmin_fs1.4">Once an eNFT is minted, it is broadcasted to the
+											Splyt network, synchronizing inventory across all marketplaces and
+											affiliates.</p>
+									</div>
+								</div>
+								<div class="col-md-6 mt-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
+									<div class="concept-box" data-toanim='["#three"]'>
+										{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/buyer-purchase.svg"
+									alt="Dropshipping Purchase Escrow"> --}}
+										<h5 class="text-white vmin_fs1.7">eNFT Escrows </h5>
+										<p class="text-grey vmin_fs1.4">Smart Contracts are baked into each
+											eNFT,
+											escrowing all funds to protect users throughout the e-commerce transaction
+											lifecycle. </p>
+									</div>
+								</div>
+								<div class="col-md-6 mt-4"
+									data-scroll-reveal="enter bottom move 50px over 0.6s after 0.9s">
+									<div class="concept-box" data-toanim='["#four"]'>
+										{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/buyer-resale.svg" alt="Buyer Resale"> --}}
+										<h5 class="text-white vmin_fs1.7">Buyer Resale</h5>
+										<p class="text-grey vmin_fs1.4">If the buyer decides to sell the item, they can
+											easily
+											relist it on the global database. The eNFT will update and retain its
+											purchase
+											history, preventing used items from being fraudulently misrepresented.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 concept-boxes__mobile" style="z-index: 1;">
+						<div class="container" style="">
+							<div class="row">
+								<div class="col">
+									<div class="owl-carousel owl-theme">
+										<div class="concept-box" data-toanim='["#one"]'>
+											{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/mint-enft.svg" alt="Mint eNFT"> --}}
+											<h5 class="text-white vmin_fs1.7">Seller Mints eNFT</h5>
+											<p class="text-grey vmin_fs1.4">All inventory uploaded into blockchain is
+												assigned a
+												unique eNFT. The eNFT contains metadata describing the item's
+												properties,
+												profit
+												share terms, affiliate requirements, and internal SKU or tracking data.
+											</p>
+										</div>
+
+										<div class="concept-box" data-toanim='["#two"]'>
+											{{!-- <img class="mb-4 vmin_h7"
+									src="img/icons/SVG/broadcast-enft.svg" alt="eNFT Broadcast"> --}}
+											<h5 class="text-white vmin_fs1.7">eNFT Broadcast</h5>
+											<p class="text-grey vmin_fs1.4">Brands place a bounty, or commission, within
+												the
+												eNFT.
+												All e-commerce stores and affiliates in the network can list the eNFT
+												from
+												the
+												Splyt
+												network on their own platforms without buying or physically holding
+												inventory,
+												enabling e-commerce stores to experiment with new brands. </p>
+										</div>
+
+										<div class="concept-box" data-toanim='["#three"]'>
+											{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/buyer-purchase.svg"
+									alt="Dropshipping Purchase Escrow"> --}}
+											<h5 class="text-white vmin_fs1.7">Dropshipping Purchase Escrow</h5>
+											<p class="text-grey vmin_fs1.4">Once a product is purchased and payment is
+												made,
+												smart
+												contracts hold the payment in escrow while product is drop shipped
+												directly
+												from
+												Seller to Buyer. Funds are released to seller & affiliate, giving
+												visibility
+												to
+												both
+												parties. A record of the transaction is added to the eNFT which the
+												Buyer
+												retains as
+												proof of purchase/authenticity.
+											</p>
+										</div>
+
+										<div class="concept-box" data-toanim='["#four"]'>
+											{{!-- <img
+									class="mb-4 vmin_h7" src="img/icons/SVG/buyer-resale.svg" alt="Buyer Resale"> --}}
+											<h5 class="text-white vmin_fs1.7">Buyer Resale</h5>
+											<p class="text-grey vmin_fs1.4">If the buyer decides to sell the item, they
+												can
+												easily
+												relist it on the global database. The eNFT will update and retain its
+												purchase
+												history, preventing used items from being fraudulently misrepresented.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div style="order:-1;z-index: 0;opacity: 0.6;" class="col-md-6">
+						<div data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s"
+							class="row justify-content-center">
+							<svg data-url="img/interactive/SVG/protocol.svg">
+							</svg>
+						</div>
+					</div>
+					<div class="col-md-12 padding-top-bottom"
+						data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="line-sep"></div>
+					</div>
+				</div>
+			</div>
+			{{!-- <div class="section background-image-cover" style="--bkg-src: url('img/background-hex.png'); --bkg-opacity: 0.2;"> --}}
+			{{!-- <div class="section padding-bottom-big background-image-cover background-gradient-dark"
+			style="--bkg-src: url('img/background-hex-3.png'); --bkg-opacity: 0.2;"> --}}
+
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 title">
+						<div class="title-wrap text-center">
+							<h3 class="text-white">SPLYT USES A TOKEN CURATED REGISTRY</h3>
+							<p class="color-gr">
+								A Token Curated Registry (TCR) enables global product listings with decentralized
+								arbitration capabilities. The SHOPX token and smart contracts (baked into eNFTs) work
+								together to improve the e-commerce experience for all parties. This maximizes value in
+								every Splyt Core transaction.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 my-5">
+						<div class="sec02">
+
+							<div data-scroll-reveal="enter right move 100px over 1s after 0.15s" class="wrap">
+								{{!-- <svg data-cb="window.initPancake()" data-url="img/interactive/SVG/pancake_new.svg"> --}}
+								<svg data-url="img/interactive/SVG/tcr.svg">
+
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div style="padding-bottom: 1px" class="col-md-12 padding-top"
+						data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="line-sep"></div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		{{!-- <div class="background-parallax"
+		style="background-image: url('img/background-hex-2.png'); z-index: 0; opacity: 0.1; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
+transform: translate3d(0, 0, 0);"
+		data-enllax-ratio="0.1" data-enllax-type="background" data-enllax-direction="vertical"></div> --}}
+		{{!-- <div class="background-parallax"
+		style="background-image: url('img/background-hex-3.png'); z-index: 0; opacity: 0.1; background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
+transform: translate3d(0, 0, 0); background-position: bottom;"
+		data-enllax-ratio="0.02" data-enllax-type="background" data-enllax-direction="vertical"></div> --}}
+		<div class="section background-gradient-dark padding-top-bottom-big" id="ecommerce">
+
+			<div class="container" style="--bkg-src:url('img/background-hex-2.png');--bkg-opacity:0.2">
+				<div class="row justify-content-center">
+					<div class="col-md-12 title">
+						<div class="title-wrap text-center">
+							<h3 class="text-white">SPLYT TECHNICAL ARCHITECTURE</h3>
+							<p class="color-gr">
+								With Polkadot Substrates, the power of decentralized e-commerce comes alive with faster
+								transactions and lower gas costs. Splyt will initially integrate with Polkadot via an
+								EVM bridge using the Plasm Parachain.</p>
+						</div>
+
+					</div>
+				</div>
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 justify-content-start">
+							{{!-- <div class="pancake-text-wrapper ant-col ant-col-xs-12">
+								<div class="ant-row pancake-anim" style="row-gap: 0px;">
+									<div class="ant-col ant-col-sm-16">
+										<h1>E-Commerce Stores</h1>
+										<p class="main-info">GLOBAL CONNECTIVITY via splyt</p>
+									</div>
+									<div class="ant-col ant-col-sm-4">
+										<div class="pancake-line"></div>
+									</div>
+								</div>
+								<div class="ant-row pancake-anim" style="row-gap: 0px;">
+									<div class="ant-col ant-col-sm-16">
+										<h1> Splyt Clients</h1>
+										<p class="main-info"> (SDK, SHOPIFY APP, WOOCOMMERCE)</p>
+									</div>
+									<div class="ant-col ant-col-sm-4">
+										<div class="pancake-line"></div>
+									</div>
+								</div>
+								<div class="ant-row pancake-anim" style="row-gap: 0px;">
+									<div class="ant-col ant-col-sm-16">
+										<h1> Splyt Core eNFTs</h1>
+										<p class="main-info"> BRIDGE</p>
+									</div>
+									<div class="ant-col ant-col-sm-4">
+										<div class="pancake-line"></div>
+									</div>
+								</div>
+								<div class="ant-row pancake-anim" style="row-gap: 0px;">
+									<div class="ant-col ant-col-sm-16">
+										<h1> Polkadot Interoperability</h1>
+										<p class="main-info"> EVM (Ethereum Virtual Machine)</p>
+									</div>
+									<div class="ant-col ant-col-sm-4">
+										<div class="pancake-line"></div>
+									</div>
+								</div>
+								<div class="ant-row pancake-anim" style="row-gap: 0px;">
+									<div class="ant-col ant-col-sm-16">
+										<h1> Ethereum</h1>
+										<p class="main-info"> BASE LAYER</p>
+									</div>
+									<div class="ant-col ant-col-sm-4">
+										<div class="pancake-line"></div>
+									</div>
+								</div>
+							</div> --}}
+
+							<div class="sec02 my-5">
+
+								<div data-scroll-reveal="enter left move 100px over 1s after 0.15s" class="wrap">
+									{{!-- <svg data-cb="window.initPancake()" data-url="img/interactive/SVG/pancake_new.svg"> --}}
+									<svg data-url="img/interactive/SVG/pancake_new.svg">
+
+									</svg>
+								</div>
+							</div>
+						</div>
+
+						{{!-- <div class="col-2 justify-content-end">
+
+						</div> --}}
+					</div>
+				</div>
+
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 padding-top-bottom"
+						data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="line-sep"></div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div data-scroll-reveal="enter left move 100px over 0.6s after 0.1s" class="col-md-5 mb-4 mb-md-0">
+						<div class="img-wrap">
+							<img src="img/maisondu@2x.webp" style="" alt="">
+						</div>
+					</div>
+					<div class="col-md-6 offset-md-1 align-self-center"
+						data-scroll-reveal="enter right move 50px over 0.6s after 0.3s">
+						<h4 class="text-white">FIRST USE CASE</h4>
+						<p class="text-grey">Maison Du aggregates inventory from all participating brands onto the
+							blockchain to create the next-gen digital marketplace for the luxury e-commerce market.
+							Launching 2021 with 2000+ strong community of brands and e-com stores.</p>
+						{{!-- <a class="btn btn-primary mt-4 mx-0 js-tilt" href="#buy" data-gal="m_PageScroll2id"
+					data-ps2id-offset="120" role="button" data-tilt-perspective="300" data-tilt-speed="700"
+					data-tilt-max="24"><span>Buy Tokens</span></a> --}}
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="demo" class="section background-gradient-dark padding-top-bottom-big" id="roadmap">
+			<div class="container" style="--bkg-src: url('img/background-hex-3.png'); --bkg-opacity: 0.2;">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title-wrap text-center">
+							<h3 class="text-white">WEB 2 COMPATIBILITY WITH SHOPIFY</h5>
+						</div>
+					</div>
+					<div class="col-md-8 offset-md-2" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="video-section video-shadow">
+							<figure class="vimeo">
+								<a href="https://www.youtube.com/embed/gOur7pm6yl0">
+									<img src="img/videothumb.png" alt="image" />
+								</a>
+							</figure>
+						</div>
+					</div>
+
+					<div class="col-md-12 padding-top-bottom"
+						data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="line-sep"></div>
+					</div>
+
+					<div class="col-md-12">
+						<div class="title-wrap text-center">
+							{{!-- <div class="back-title">roadmap</div> --}}
+							<h3 class="text-white">ROADMAP</h3>
+							{{!-- <p class="color-gr">The Coeus token sale events are unique as they offer tiered bonuses which
+						include increasing token price and lifetime discounts.</p> --}}
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="customNavigation">
+							<a class="prev-roadmap dark"><i class="fa fa-angle-left"></i></a>
+							<a class="next-roadmap dark"><i class="fa fa-angle-right"></i></a>
+						</div>
+						<div data-scroll-reveal="enter left move 50px over 0.6s after 0.05s" id="owl-roadmap"
+							class="owl-carousel owl-theme">
+							<div data-scroll-reveal="enter top move 50px over 0.6s after 0.3s" class="item dark">
+								<div class="roadmap-box background-dark-blue-2">
+									<p class="mb-4 achieved"><span>Achieved</span></p>
+									<h6 class="text-white">2020</h6>
+									<p class="text-grey">Testnet Launch</p>
+								</div>
+							</div>
+							<div data-scroll-reveal="enter left move 50px over 0.6s after 0.5s" class="item dark">
+								<div class="roadmap-box current-road background-dark-blue-2 roadmap-shadow">
+									<p class="mb-4"><span>Current</span></p>
+									<h6 class="text-white">Q1 2021</h6>
+									<p class="text-grey">Shopify Integration</p>
+									<hr>
+									<p class="text-grey">Mainnet Launch</p>
+
+								</div>
+							</div>
+							<div data-scroll-reveal="enter left move 50px over 0.6s after 0.7s" class="item dark">
+								<div class="roadmap-box next-road background-dark-blue-2">
+									<p class="mb-4 plan"><span>Plan</span></p>
+									<h6 class="text-white">Q2 2021</h6>
+
+									<p class="text-grey">Soft Launch Mainnet</p>
+									<hr>
+									<p class="text-grey">Affiliate Checkout Cart</p>
+									<hr>
+									<p class="text-grey">eNFT Inventory System
+									</p>
+
+
+								</div>
+							</div>
+							<div data-scroll-reveal="enter left move 50px over 0.6s after 0.9s" class="item dark">
+								<div class="roadmap-box next-road background-dark-blue-2">
+									<p class="mb-4 plan"><span>Plan</span></p>
+									<h6 class="text-white">Q3 2021</h6>
+									<p class="text-grey">
+										Mainnet dApp Launch
+									</p>
+									<hr>
+									<p class="text-grey">
+										Polkadot Bridge
+									</p>
+									<hr>
+
+									<p class="text-grey">
+										Plasm Integration
+									</p>
+									<hr>
+
+									<p class="text-grey">
+										Maison Du Onboarding </p>
+								</div>
+							</div>
+							<div data-scroll-reveal="enter left move 50px over 0.6s after 1.2s" class="item dark">
+								<div class="roadmap-box next-road background-dark-blue-2">
+									<p class="mb-4 plan"><span>Plan</span></p>
+									<h6 class="text-white">Q4 2021</h6>
+									<p class="text-grey">
+										WooCommerce Integration
+									</p>
+									<hr>
+									<p class="text-grey">
+										DeFi Soft Launch
+									</p>
+									<hr>
+
+									<p class="text-grey">
+										Polkadot Migration
+									</p>
+
+								</div>
+							</div>
+							<div data-scroll-reveal="enter left move 50px over 0.6s after 1.5s" class="item dark">
+								<div class="roadmap-box next-road background-dark-blue-2">
+									<p class="mb-4 plan"><span>Plan</span></p>
+									<h6 class="text-white">Q1 2022</h6>
+									<p class="text-grey">
+										DeFi Hard Launch + Dashboard
+									</p>
+									<hr>
+									<p class="text-grey">
+										Checkout Cart Customization </p>
+									<hr>
+
+									<p class="text-grey">
+										Affiliate Collaboration Portal
+									</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+
+		<div class="section padding-top-bottom-big" id="team">
+			<div class="background-parallax" style="background-image: url('img/parallax-dark-1.jpg')"
+				data-enllax-ratio=".5" data-enllax-type="background" data-enllax-direction="vertical"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title-wrap text-center">
+							{{!-- <div class="back-title">TEAM</div> --}}
+							<h3 class="text-white">TEAM</h3>
+							{{!-- <p class="color-gr">We're a close team of creatives, designers & developers who work together.</p> --}}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-1">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/cyrus.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/cyrus.webp" class="preview" alt="image" />
+										<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>CYRUS TAGHEHCHIAN</h6>
+							<p>Founder, CEO and CFO</p>
+							<a class="app-btn" target="_blank" target="_blank" target="_blank"
+								href="https://twitter.com/cyruskind"><i class="fa fa-twitter"></i></a>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/taghehchian/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-2">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/joshi.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/joshi.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>DIPEN JOSHI</h6>
+							<p>Founder, CTO</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://github.com/dipenjoshi"><i class="fa fa-git"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/lindsey.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/lindsey.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>LINDSEY MALLON</h6>
+							<p>FOUNDER, CMO AND CPO</p>
+							<a class="app-btn" target="_blank" target="_blank" target="_blank"
+								href="https://twitter.com/lindsey__mallon"><i class="fa fa-twitter"></i></a>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/lindseymallon/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/joseph.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/joseph.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>JOSEPH EUI-YEOL YOO</h6>
+							<p>COO</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/joseph-y-61721921/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/leo.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/leo.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>LEO JEONG</h6>
+							<p>LEAD BLOCKCHAIN ENGINEER, RUST</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/dreamerty/"><i class="fa fa-linkedin"></i></a>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.github.com/gusiri/"><i class="fa fa-git"></i></a>
+
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/tj.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/tj.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>TJ CHANG</h6>
+							<p>CBDO</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/tjchang1/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/kat.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/kat.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>KATIE LO</h6>
+							<p>FULL STACK BLOCKCHAIN ENGINEER</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/katie-l-925867162/"><i class="fa fa-linkedin"></i></a>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.github.com/kqb/"><i class="fa fa-git"></i></a>
+
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/kurt.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/kurt.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>KURT IVY</h6>
+							<p>RESEARCH AND DEVELOPMENT</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/kurt-ivy-629362133/"><i
+									class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team/corey.webp" class="progressive 		replace">
+										<img src="img/headshots/team/sm/corey.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>COREY BILLINGTON</h6>
+							<p>Head of Marketing</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/coreybillington/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/josh.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/josh.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>JOSH MEIER</h6>
+							<p>Marketing Operations</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/josh-meier-b82874a0/"><i
+									class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/cal.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/cal.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>CAL EVANS</h6>
+							<p>Legal and Compliance</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/calevans1/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					{{!-- <div class="col-lg-3 col-md-4 col-6" >
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/daniel.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/daniel.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>DANIEL ICE</h6>
+							<p>Senior Product Engineer</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank" href="https://www.linkedin.com/in/danielice/"><i
+									class="fa fa-linkedin"></i></a>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank" href="https://www.github.com/kqb/"><i class="fa fa-git"></i></a>
+
+						</div>
+					</div> --}}
+					<div class="col-lg-3 col-md-4 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-3">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/eric.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/eric.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>ERIC MCHUGH</h6>
+							<p>Account Executive</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/ericdouglasmchugh/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container mt-5">
+				<div class="row">
+					{{!-- <div class="col-md-12">
+						<div class="title-wrap padding-top text-center">
+							<h5 class="color-light">EXPERINCE FROM</h5>
+						</div>
+					</div> --}}
+					<div class="col-md-12">
+						<div data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s" class="holo-card">
+
+							<ul class="logo-wrap">
+								<li><img src="img/exp/1.webp" alt=""></li>
+								<li><img src="img/exp/z2.webp" alt=""></li>
+								<li><img src="img/exp/z3.webp" alt=""></li>
+								<li><img src="img/exp/z4.webp" alt=""></li>
+								{{!-- <li><img src="img/exp/z5.webp" alt=""></li> --}}
+								<li><img src="img/exp/z6.webp" alt=""></li>
+								<li><img src="img/exp/z7.webp" alt=""></li>
+								{{!-- <li><img src="img/exp/z8.webp" alt=""></li> --}}
+								<li><img src="img/exp/z9.webp" alt=""></li>
+								<li><img src="img/exp/z11.webp" alt=""></li>
+								<li><img src="img/exp/z12.webp" alt=""></li>
+								<li><img src="img/exp/z13.webp" alt=""></li>
+								<li><img src="img/exp/z14.webp" alt=""></li>
+								<li><img src="img/exp/samsung.webp" alt=""></li>
+								<li><img src="img/exp/bithumb.webp" alt=""></li>
+								<li><img src="img/exp/ibm.webp" alt=""></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 padding-top">
+						<div class="title-wrap text-center mb-5">
+							<h3 class="text-white">ADVISORY TEAM</h3>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6 ">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-6">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/rob.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/rob.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>ROB FOX</h6>
+							<p>CTO, HG Insignts</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/robertjfox/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-5">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/kyle.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/kyle.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>KYLE CHASSE</h6>
+							<p>CEO, Master Ventures</p>
+							<a class="app-btn" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/kylechasse/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-7">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/jona.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/jona.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>JONATHAN MCKEEVER</h6>
+							<p>eCommerce Director, Pepsi</p>
+
+							<a class="app-btn ml-3" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/jonathanmckeever/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+
+
+					<div class="col-lg-3 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-7">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/joel.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/joel.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>JOEL "Coach K" KOVSHOFF</h6>
+							<p>CMO, AnRKey X</p>
+
+							<a class="app-btn ml-3" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/coachkcrypto/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-6">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-7">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/joeri.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/joeri.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>JOERI VAN GEELEN</h6>
+							<p>Co-Founder, Minterest Finance</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/joerivangeelen/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6 mb-5 mb-xl-0">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-4">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/simon.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/simon.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>SIMON SCHWERIN</h6>
+							<p>Serial Entrepreneur</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/simonschwerin/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6 mb-5 mb-xl-0">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-4">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/rale.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/rale.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>RALEIGH HARBOR</h6>
+							<p>Angel Investor</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/raleighharbour/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+					<div class="col-lg-3 col-6 mb-5 mb-xl-0">
+						<div class="team-wrap dark">
+							<a class="d-inline" data-toggle="modal" data-target="#team-modal-4">
+								<div class="team-img-wrap dark js-tilt" data-tilt-perspective="700"
+									data-tilt-speed="700" data-tilt-max="24">
+									<a href="img/headshots/team-temp/garam.webp" class="progressive 		replace">
+										<img src="img/headshots/team-temp/sm/garam.webp" class="preview" alt="image" />
+									</a>
+									<div class="team-img-mask"></div>
+								</div>
+							</a>
+							<h6>GARLAM WON</h6>
+							<p>ex-CMO, Harmony</p>
+							<a class="app-btn ml-3" target="_blank" target="_blank"
+								href="https://www.linkedin.com/in/garlam/"><i class="fa fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title-wrap text-center padding-top">
+							<h3 class="text-white">PARTNERS AND FRIENDS</h3>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s" class="holo-card">
+							<ul class="logo-wrap">
+								<li><img src="img/partners/ALPHABIT-LOGO-RGB-white.webp" alt=""></li>
+								<li><img src="img/partners/au21.webp" alt=""></li>
+								<li><img src="img/partners/MasterVenturesHorizontal.webp" alt=""></li>
+								<li><img src="img/partners/ngc.webp" alt=""></li>
+								<li><img src="img/partners/plasm-logo.webp" alt=""></li>
+
+								<li><img src="img/partners/Spykefast.png" alt=""></li>
+								<li><img src="img/partners/Spark Digital Capital Logo.webp" alt=""></li>
+								<li><img src="img/partners/Rarestone Capital Logo.webp" alt=""></li>
+								<li><img src="img/partners/Morningstar-Logo.webp" alt=""></li>
+								<li><img src="img/partners/logo Kardia Ventures-03.webp" alt=""></li>
+
+								<li><img src="img/partners/Kyros Ventures Partnership Logo.webp" alt=""></li>
+								<li><img src="img/partners/BM.webp" alt=""></li>
+								<li><img src="img/partners/Bigcoin Capital Logo.webp" alt=""></li>
+																<li><img src="img/partners/krypton logo white.webp" alt=""></li>
+
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="section padding-top-big  background-gradient-dark-re">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title-wrap text-center">
+							<h3 class="text-white">IN THE MEDIA</h3>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12">
+						<div id="owl-media" class="owl-carousel owl-theme">
+							<a href="https://bitcoinmagazine.com/press-releases/future-online-shopping-powered-splyt-decentralized-e-commerce-protocol"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="img/media/bitcoinmaga.png" style="max-width: 70%;">
+											{{!-- <img src="img/media/bitcoinmagimg.webp">
+											<br>
+											<h4 class="text-white">The Future of Online Shopping is Powered By Splyt
+											</h4> --}}
+										</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="https://modernconsensus.com/people/innovators/splyt-amazon-blockchain-ecommerce"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="img/media/moderncon.png" style="max-width: 70%;">
+											{{!-- <img src="img/media/modernconcensusimg.webp">
+											<br>
+											<h4 class="text-white">Startup targets Amazon using Blockchain Tech</h4> --}}
+										</div>
+									</div>
+								</div>
+							</a>
+
+							<a href="https://www.nasdaq.com/articles/disrupting-online-shopping-distributed-technologies-2018-08-28"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="img/media/nasdaq.png" style="max-width: 70%;">
+											{{!-- <img src="img/media/nasdaqimg.webp">
+											<br>
+											<h4 class="text-white">Disrupting Online Shopping with Distributed
+												Technologies
+											</h4> --}}
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://en.cryptonomist.ch/2021/03/18/coming-polkadot-projects-2021/"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://cryptonomist.ch/wp-content/themes/cryptonomist_v1/assets/images/logo.svg"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://thedailychain.com/splyt-utilizes-blockchain-and-nfts-to-turn-anyone-into-a-product-affiliate-marketer/"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://img.onesignal.com/permanent/9522037e-4723-45c3-af59-2972bd7d91b5.png"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://www.coinspeaker.com/splyt-e-commerce-affiliate-marketing/" target="_blank"
+								style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://273701.selcdn.ru/tcehcom/eventpartner_logos/coinspeaker.png"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://blocktelegraph.io/polkadot-projects-watch-2021/" target="_blank"
+								style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://launch.quantmre.com/wp-content/uploads/QRE-PRESS-BLOCKTELEGRAPH-LOGO-1080x375.jpg"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://www.youtube.com/watch?v=t13uv1qKiyo&t=1560s" target="_blank"
+								style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.iono.fm%2Ffiles%2Fp2114%2Flogo_2114_20201126_152634_600.jpg&f=1&nofb=1"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="http://www.koreaittimes.com/news/articleView.html?idxno=104603" target="_blank"
+								style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="http://www.koreaittimes.com/image/logo/toplogo_20171229113331.png"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://www.newsbtc.com/news/company/the-top-blockchain-launches-to-watch-in-march-2021/"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://www.newsbtc.com/wp-content/uploads/2020/10/logo-retina-min.png"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://coin68.com/slypt-hop-tac-voi-bridge-mutual-de-tang-cuong-bao-hiem-cho-e-commerce/"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://coin68.com/wp-content/uploads/2021/03/logo.png"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="http://www.koreaittimes.com/news/articleView.html?idxno=104603" target="_blank"
+								style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://launch.quantmre.com/wp-content/uploads/QRE-PRESS-BLOCKTELEGRAPH-LOGO-1080x375.jpg"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="https://finance.yahoo.com/news/splyt-core-raises-2-75m-183600529.html"
+								target="_blank" style="text-decoration:none">
+								<div class="item dark">
+									<div class="concept-box">
+										<div style="text-align:center;">
+											<img src="https://kylin.network/media_yahoo.601281b8.png"
+												style="max-width: 70%;">
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-12 padding-top-big" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div class="line-sep"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section padding-top-bottom-big  background-gradient-dark" id="faq">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title-wrap text-center">
+							{{!-- <div class="back-title">faq</div> --}}
+							<h3 class="text-white">FAQ</h3>
+							{{!-- <p class="color-gr">Listed questions and answers, all supposed to be commonly asked in
+								some
+								context,
+								and pertaining to a particular topic.</p> --}}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+						<div id="accordion" class="accordion-style">
+							<div class="card">
+								<div class="card-header" id="headingOne">
+									<a class="text-white background-dark-blue-2" data-toggle="collapse"
+										data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										Why decentralization? </a>
+								</div>
+
+								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+									data-parent="#accordion">
+									<div class="card-body">
+										<p class="text-grey">
+											The call for a decentralized “free market” has been growing louder as we
+											begin to realize the strengths of such a system. It isn’t until now that
+											conceptualization has been able to join with innovative technology to create
+											a model that is global, scalable, able to withstand complexity and change,
+											and highly resistant to fraud. Splyt Core is the first and only entity of
+											its kind.
+											The power in decentralization comes in multiple parts. First, with the right
+											mechanics, many different processes can be automated. Not only does this
+											include tedious manual tasks, but even person to person communication can be
+											avoided by relying on the functions of the system instead. Second, attention
+											and resources aren’t pooled in one area, creating oligopolistic entities
+											that can censor individuals and dictate terms. Finally, new rules and system
+											updates can be decided by consensus, ensuring that only the most efficient
+											protocols are implemented, unmotivated by personal gain.
+
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+									<a class="collapsed text-white background-dark-blue-2" data-toggle="collapse"
+										data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										Why nonprofit? </a>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+									data-parent="#accordion">
+									<div class="card-body">
+										<p class="text-grey">Our strategy is very straightforward: 1) raise funds,
+											The nonprofit, non-stock corporate entity model is well suited to avoid
+											influences that may corrupt its mission of serving token-holders and users
+											through a decentralized protocol. For-profit entities favor maximizing
+											profits, which are not aligned with users and customers, society, or even
+											useful products’ survival. Concepts like profit maximization, executive
+											fiduciary duties, and pressures from forces like hostile takeovers can
+											promote informational asymmetry, aggressive exploitation of steep bargaining
+											leverage, oligopolistic markets, and psychological manipulation of users and
+											customers through advertising. If true decentralization of control for the
+											benefit of customers is the goal, a profit orientation simply is not the
+											most aligned model for success.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<a class="collapsed text-white background-dark-blue-2" data-toggle="collapse"
+										data-target="#collapseThree" aria-expanded="false"
+										aria-controls="collapseThree">
+										Is Splyt a marketplace?
+									</a>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+									data-parent="#accordion">
+									<div class="card-body">
+										<p class="text-grey">
+											Splyt Core is not a market place. It is a marketplace of marketplaces. Think
+											of Splyt as the TCP/eNFT: the conceptual model and set of communications
+											protocols used in e-commerce. It is a self-enforced system that streamlines
+											tasks and resources within the e-commerce industry. Markets can either plug
+											into the Splyt platform or can start fresh within it.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
+						<div id="accordion-snd" class="accordion-style">
+							<div class="card">
+								<div class="card-header" id="headingFour">
+									<a class="text-white background-dark-blue-2" data-toggle="collapse"
+										data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+										Why blockchain?
+									</a>
+								</div>
+
+								<div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
+									data-parent="#accordion-snd">
+									<div class="card-body">
+										<p class="text-grey">
+											Blockchain is currently the only way to create a platform that is
+											decentralized and immune to data corruption and system-wide hacks. It’s not
+											enough to create a fair and equitable economy on theory alone. It’s possible
+											to imagine and plan such a concept, but the only way to have it work as
+											intended is for the technology and machinery to be functionally
+											decentralized.
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingFive">
+									<a class="collapsed text-white background-dark-blue-2" data-toggle="collapse"
+										data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+										What sets Splyt apart from similar projects from the past and present?
+									</a>
+								</div>
+								<div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+									data-parent="#accordion-snd">
+									<div class="card-body">
+										<p class="text-grey">
+											Most other companies have been building tech with the expectation that users
+											will completely abandon the current system in favor of their own. But even a
+											flawless, revolutionary platform will never be adopted if users are expected
+											to drop everything and jump ship at the same time. Also, large companies
+											have little incentive to bleed profit during the transition while they’re
+											already at the top of their own ecosystem.
+											Splyt offers a Plug and Play option that is crucial towards bringing this
+											tech to the mass market. Large companies won’t face the inefficiencies of a
+											massive change in protocol, but will also be able to keep up with and
+											accommodate the changing landscape.
+
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingSix">
+									<a class="collapsed text-white background-dark-blue-2" data-toggle="collapse"
+										data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+										Why now?
+									</a>
+								</div>
+								<div id="collapseSix" class="collapse" aria-labelledby="headingSix"
+									data-parent="#accordion-snd">
+									<div class="card-body">
+										<p class="text-grey">
+											Timing is crucial, and we need to move before this window of opportunity
+											narrows.
+											On the surface, the US only officially recognized cryptocurrency in 2020.
+											It’s as legitimate as it has ever been. More importantly, blockchain
+											technology itself has only recently advanced to the point where it is viable
+											and scalable enough to accommodate widespread adoption.
+											Upon closer observation, it is clear to see that everyone is now online as a
+											result of Covid. Not only that, but the free time we have been given, along
+											with the increase in e-commerce, has dramatically increased the awareness
+											around business transparency and the implications of online marketing.
+											Retail giants have cornered the market and are now taking advantage of their
+											position. The public is hungry for solutions.
+
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="section padding-top-bottom-big" id="contact">
+			<div class="background-parallax" style="background-image: url('img/parallax-dark-2.jpg')"
+				data-enllax-ratio=".5" data-enllax-type="background" data-enllax-direction="vertical"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title-wrap text-center">
+							{{!-- <div class="back-title">contact</div> --}}
+							<h3 class="text-white">CONTACT</h3>
+							{{!-- <p class="color-gr">Get in touch.</p> --}}
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				{{!-- <div class="row justify-content-center">
+			<div class="col-md-3" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+				<div class="contact-det text-center">
+					<img src="img/contact-1.svg" alt="">
+					<h6 class="text-white">Phone</h6>
+					<p class="text-grey">+54 12 346 7826</p>
+				</div>
+			</div>
+			<div class="col-md-3 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.5s">
+				<div class="contact-det text-center">
+					<img src="img/contact-2.svg" alt="">
+					<h6 class="text-white">Email</h6>
+					<p class="text-grey">office@coeus.ico</p>
+				</div>
+			</div>
+			<div class="col-md-3 mt-4 mt-md-0" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.7s">
+				<div class="contact-det text-center">
+					<img src="img/contact-3.svg" alt="">
+					<h6 class="text-white">Address</h6>
+					<p class="text-grey">1093 Flushing Ave, NY</p>
+				</div>
+			</div>
+		</div> --}}
+				<form method="post" action="#" name="myForm" onsubmit="window.contact(this);" role="form"
+					data-scroll-reveal="enter bottom move 50px over 0.6s after 0.3s">
+					<div class="row justify-content-center">
+						<div class="col-md-8 mb-2" id="message"></div>
+						<div class="col-md-8">
+							<div class="messages text-center"></div>
+						</div>
+					</div>
+					<div class="controls">
+						<div class="row justify-content-center">
+							<div class="col-md-8">
+								<div class="form-group text-center">
+									<input id="form_name" type="text" name="name" class="form-control"
+										placeholder="Name *" required="required" data-error="Name is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+
+							<div class="col-md-8 mt-3">
+								<div class="form-group text-center">
+									<input id="form_email" type="email" name="email" class="form-control"
+										placeholder="Email *" required="required" data-error="Valid email is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="col-md-8 mt-3">
+								<div class="form-group text-center">
+									<input id="form_cwebsite" type="cwebsite" name="cwebsite" class="form-control"
+										placeholder="Company Website">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+
+							<div class="col-md-8 mt-3">
+								<div class="form-group text-center">
+
+									<select id="form_subject" type="subject" name="subject" class="custom-select"
+										required="required">
+										<option disabled="disabled" selected="selected">Subject *</option>
+										<option>I’m an interested Seller</option>
+										<option>I'm interested in DeFi lending</option>
+										<option>I want to get involved in the ecosystem</option>
+										<option>Other</option>
+									</select>
+
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+
+
+							<div class="col-md-8 mt-3">
+								<div class="form-group text-center">
+									<textarea id="form_message" name="msg" class="form-control"
+										placeholder="Your message *" rows="4" required="required"
+										data-error="Please,leave us a message."></textarea>
+									<div class="help-block with-errors textarea-error"></div>
+								</div>
+							</div>
+							<div class="col-md-8 mt-3 text-center">
+								<input type="submit" class="btn btn-primary btn-send text-center" value="Send message">
+							</div>
+						</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	{{> footer pageTitle="HomePage"}}
+
+	{{/main}}
