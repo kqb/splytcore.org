@@ -1507,6 +1507,7 @@ large-2 {
 	opacity: 1;
 	position: absolute;
 	z-index: 0;
+	top:0;
 }
 
 .intro__logo {
@@ -1742,14 +1743,14 @@ svg#pancakes {
 	overflow: visible;
 	width: 100%;
 	height: auto;
-	max-width: 800px;
+	max-width: 550px;
 }
 
 svg#tcr {
 	overflow: visible;
 	width: 100%;
 	height: auto;
-	max-width: 800px;
+	max-width: 550px;
 }
 
 .title-wrap {

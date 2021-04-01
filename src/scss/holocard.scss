@@ -1,15 +1,15 @@
 .holo-card {
-    /* background: #2222b5; */
     position: relative;
     border: 1px solid #5dbfe6;
-    -webkit-filter: drop-shadow(0px 0px 20px #00b6ff);
-    filter: drop-shadow(0px 0px 20px #00b6ff);
-    background-color: #82b5ff0d;
-    background-color: hsla(0, 0%, 0%, 0.33);
+    -webkit-filter: drop-shadow(0 0 20px #00b6ff);
+    filter: drop-shadow(0 0 20px #0f2da0c2);
+    background-color: rgba(130,181,255,.050980392156862744);
+    background-color: rgba(0,0,0,.33);
     border-radius: 10px;
     padding: 2rem;
     margin: auto;
-    transition: 0.5s all ease-in-out;
+    transition: all .5s ease-in-out;
+    background: #0f2da01a;
 
     &::before {
         border-radius: 10px;
