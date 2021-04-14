@@ -1,7 +1,7 @@
 import "../../css/bootstrap.min.css"
 import(/* webpackPreload: true */ "../../css/font-awesome.min.css")
-import/* webpackPreload: true */ ("../../css/owl.carousel.css")
-import/* webpackPreload: true */ ("../../css/owl.theme.default.css")
+import(/* webpackPreload: true */ "../../css/owl.carousel.css")
+import(/* webpackPreload: true */ "../../css/owl.theme.default.css")
 import('../../../node_modules/progressive-image.js/dist/progressive-image.css');
 // import ScrollReveal from 'scrollreveal';
 // window.ScrollReveal = ScrollReveal;

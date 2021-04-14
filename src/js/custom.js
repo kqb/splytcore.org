@@ -412,8 +412,6 @@
 		var ocs = document.querySelectorAll('.concept-boxes .concept-boxes__mobile .owl-carousel');
 		ocs.forEach((e) => {
 			var observer = new MutationObserver(function () {
-				console.log(e);
-
 				if (!e.classList.contains('owl-hidden')) {
 					toggleBoxAnim(conceptBoxes);
 				} else {

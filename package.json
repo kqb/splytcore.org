@@ -9,7 +9,7 @@
     "dev:open": "webpack-dev-server --open",
     "build": "webpack",
     "watch": "webpack --watch",
-    "deploy": "aws s3 sync dist/ s3://splyt-core --acl public-read",
+    "deploy": "aws s3 sync dist/ s3://www.splytcore.org --acl public-read",
     "invalidate": "aws cloudfront create-invalidation --distribution-id E1FHGYFXO0FEXE --paths '/*'",
     "production": "yarn build && yarn deploy && yarn invalidate"
   },
